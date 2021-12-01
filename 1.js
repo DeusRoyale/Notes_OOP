@@ -2,6 +2,7 @@
 
 class FirstClass {
   //constructor is a function to create an obj
+  //parameters are set HERE!
   constructor(radius) {
     this.radius = radius // the 'radius AFTER 'this' is what we use!
   }
