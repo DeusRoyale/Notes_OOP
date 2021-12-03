@@ -10,14 +10,15 @@ class Shape {
 
 //Inheriting!
 class Circle extends Shape{
-  //call constructor from the parent class first (to initialize the base obj~)
+  //call constructor from the parent using'super' (to initialize the base obj~)
   constructor(color, radius){
+    //use 'super' to pass the argument to the parent
     super(color)
     this.radius = radius
   }
 
   draw(){
-    console.log('Drew circle with radius', this.radius)
+    console.log(`Drew ${this.color} circle with radius ${this.radius} cm`)
   }
 
   erase(){
