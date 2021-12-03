@@ -32,7 +32,7 @@ const privateProps = new WeakMap()
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /* Module - 2 */
 
-//import {Circle} from 'path'
+//import {Circle} from 'path' /* AND change type of 'script' in HTML */
 
 const c = new Circle(123564)
 
