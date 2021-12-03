@@ -1,8 +1,10 @@
-//Another implementation
+/* Module - 1 */
 
+//Implementation Detail
 const privateProps = new WeakMap()
 
-class Circle {
+//Public Interface
+/* export */class Circle {
   
   constructor(radius) {
     privateProps.set(this, {
@@ -24,6 +26,13 @@ class Circle {
   }
 
 }
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+/* Module - 2 */
+
+//import {Circle} from 'path'
 
 const c = new Circle(123564)
 
