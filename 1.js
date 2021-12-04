@@ -7,6 +7,8 @@ class FirstClass {
     this.radius = radius // the 'radius AFTER 'this' is what we use!
   }
 
+  //***use 'this' infront of properties before using them in methods!***//
+  
   //EVERYTHING in the body(outide of the constructor) will fall in the prototype obj
   draw() {
     console.log("draw")
